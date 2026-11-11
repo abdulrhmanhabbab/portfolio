@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Abdulrhman Habbab</h1>
+      <p>Software Engineering Student</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav aria-label="Main Navigation">
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#join">Join a Project</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- About Me -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I'm a 21-year-old fourth-year Software Engineering student with a
+          passion for programming, web development, and frontend design. I enjoy
+          solving problems, exploring new technologies, and turning creative
+          ideas into practical projects. I'm always looking to improve my
+          technical skills, gain hands-on experience, and grow as a software
+          developer. My goal is to build useful, innovative applications that
+          solve real-world problems.
+        </p>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>My Projects</h2>
+
+        <article>
+          <h3>Moon&Mocha</h3>
+          <p>
+            Moon&Mocha is a responsive, night-themed café website featuring
+            immersive parallax animations, a curated menu, opening hours, and
+            reservation details.
+          </p>
+          <a href="https://abdulrhmanhabbab.github.io/Moon-Mocha/"
+            >View Project</a
+          >
+        </article>
+
+        <article>
+          <h3>milky way</h3>
+          <p>
+            MilkyWay is a responsive and interactive website that lets users
+            explore the Sun and planets through engaging animations and key
+            facts.
+          </p>
+          <a href="https://abdulrhmanhabbab.github.io/Milky-Way/"
+            >View Project</a
+          >
+        </article>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2>My Skills</h2>
+
+        <article>
+          <h3>HTML</h3>
+          <p>Semantic HTML and web page structure.</p>
+        </article>
+
+        <article>
+          <h3>CSS</h3>
+          <p>Web page styling and responsive design.</p>
+        </article>
+
+        <article>
+          <h3>Git & GitHub</h3>
+          <p>Version control and collaboration.</p>
+        </article>
+      </section>
+
+      <!-- Registration Section -->
+      <section id="join">
+        <h2>Join a Project</h2>
+
+        <p>
+          Interested in collaborating on a project? Fill out the registration
+          form below.
+        </p>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" />
+
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Project Information</legend>
+
+            <label for="role">Preferred Role:</label>
+            <select id="role" name="role" required>
+              <option value="">Select a Role</option>
+              <option value="frontend">Frontend Developer</option>
+              <option value="backend">Backend Developer</option>
+              <option value="fullstack">Full Stack Developer</option>
+              <option value="designer">UI/UX Designer</option>
+              <option value="other">Other</option>
+            </select>
+
+            <p>Experience Level:</p>
+
+            <input
+              type="radio"
+              id="beginner"
+              name="experience"
+              value="beginner"
+              required
+            />
+            <label for="beginner">Beginner</label>
+
+            <input
+              type="radio"
+              id="intermediate"
+              name="experience"
+              value="intermediate"
+            />
+            <label for="intermediate">Intermediate</label>
+
+            <input
+              type="radio"
+              id="advanced"
+              name="experience"
+              value="advanced"
+            />
+            <label for="advanced">Advanced</label>
+
+            <label for="message"> Tell Me About Yourself: </label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </fieldset>
+
+          <fieldset>
+            <legend>Confirmation</legend>
+
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms">
+              I agree to be contacted about project opportunities.
+            </label>
+          </fieldset>
+
+          <button type="submit">Register</button>
+          <button type="reset">Clear Form</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <h2>Contact Me</h2>
+
+      <p>
+        Email:
+        <a href="mailto:abdulrhmanhabbab6@gmail.com"> abdulrhmanhabbab6@gmail.com </a>
+      </p>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/abdulrhmanhabbab"> My GitHub Profile </a>
+      </p>
+    </footer>
+  </body>
+</html>
