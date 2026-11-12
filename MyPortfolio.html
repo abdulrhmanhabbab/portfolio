@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>My Personal Portfolio</title>
   </head>
 
@@ -107,7 +108,14 @@
             <input type="email" id="email" name="email" required />
 
             <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              inputmode="numeric"
+              pattern="[0-9]*"
+              maxlength="15"
+            />
 
             <label for="birthdate">Date of Birth:</label>
             <input type="date" id="birthdate" name="birthdate" />
@@ -178,7 +186,9 @@
 
       <p>
         Email:
-        <a href="mailto:abdulrhmanhabbab6@gmail.com"> abdulrhmanhabbab6@gmail.com </a>
+        <a href="mailto:abdulrhmanhabbab6@gmail.com">
+          abdulrhmanhabbab6@gmail.com
+        </a>
       </p>
 
       <p>
