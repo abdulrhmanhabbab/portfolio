@@ -69,6 +69,11 @@ article p {
 
 a {
   color: #2f638f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 form {
